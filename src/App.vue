@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+<!-- <HelloWorld msg="Learning Vue" /> -->
+<router-link to="/insert">Insert Data</router-link><br>
+<router-link to="/statemanagement">State management</router-link>
+
+<router-view></router-view>
+
+
+
+
+
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+// import HelloWorld from './components/HelloWorld.vue'
+
+  // import PostComponent from './components/PostComponent.vue';
+ 
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: 'App',
+  
+   
+    components:{
+    
+      //  UpdateComponent,
+  
+    }
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
