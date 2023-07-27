@@ -5,13 +5,6 @@
 <router-link to="/statemanagement">State management</router-link>
 
 <router-view></router-view>
-
-
-
-
-
-
-
 </template>
 
 <script>
